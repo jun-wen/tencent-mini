@@ -1,7 +1,6 @@
 import json
 import os
 import binascii
-
 import tornado.web
 
 from sqlalchemy import create_engine
@@ -11,8 +10,6 @@ from sqlalchemy.ext.declarative import declarative_base
 
 from sqlalchemy.orm.exc import MultipleResultsFound
 from sqlalchemy.orm.exc import NoResultFound
-
-
 
 from model.model import User
 
